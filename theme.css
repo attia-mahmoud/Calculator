@@ -1,0 +1,84 @@
+:root {
+  /* theme 1 */
+  --clr-background-1: hsl(222, 26%, 31%);
+  --clr-switch-1: hsl(223, 31%, 20%);
+  --clr-display-1: hsl(224, 36%, 15%);
+
+  --clr-clear-1: hsl(225, 21%, 49%);
+  --clr-clear-shadow-1: hsl(224, 28%, 35%);
+  --clr-equals-1: hsl(6, 63%, 50%);
+  --clr-equals-shadow-1: hsl(6, 70%, 34%);
+  --clr-key-1: hsl(30, 25%, 89%);
+  --clr-key-shadow-1: hsl(28, 16%, 65%);
+  --clr-key-hover-1: rgb(217, 217, 217);
+
+  --clr-text: hsl(221, 14%, 31%);
+
+  /* theme 2 */
+  --clr-background-2: hsl(222, 26%, 31%);
+  --clr-switch-2: hsl(223, 31%, 20%);
+  --clr-display-2: hsl(224, 36%, 15%);
+
+  --clr-clear-2: hsl(225, 21%, 49%);
+  --clr-clear-shadow-2: hsl(224, 28%, 35%);
+  --clr-equals-2: hsl(6, 63%, 50%);
+  --clr-equals-shadow-2: hsl(6, 70%, 34%);
+  --clr-key-2: hsl(30, 25%, 89%);
+  --clr-key-shadow-2: hsl(28, 16%, 65%);
+  --clr-key-hover-2: rgb(217, 217, 217);
+
+  --clr-text-1: hsl(221, 14%, 31%);
+}
+
+.body-theme-1 {
+  background-color: var(--clr-background-1);
+  color: var(--clr-text-1);
+}
+
+.key-theme-1 {
+  background-color: var(--clr-key-1);
+  border-bottom: 5px solid var(--clr-key-shadow-1);
+}
+
+.number-theme-1:hover,
+.operator-theme-1:hover {
+  background-color: var(--clr-key-hover-1);
+}
+
+.equals-theme-1 {
+  color: white;
+  background-color: var(--clr-equals-1);
+  border-bottom: 5px solid var(--clr-equals-shadow-1);
+}
+
+.error-message-theme-1 {
+  color: var(--clr-equals-1);
+}
+
+.delete-theme-1,
+.clear-theme-1 {
+  color: white;
+  background-color: var(--clr-clear-1);
+  border-bottom: 5px solid var(--clr-clear-shadow-1);
+}
+
+.switch-theme-1 {
+  background-color: var(--clr-switch-1);
+}
+
+.indicator-theme-1 {
+  background-color: var(--clr-equals-1);
+}
+
+.container-calculator-theme-1 {
+  background-color: var(--clr-blue-400);
+}
+
+.display-theme-1 {
+  background-color: var(--clr-display-1);
+  color: white;
+}
+
+.meta-theme-1 {
+  color: white;
+}
