@@ -9,7 +9,7 @@ const ops = document.querySelectorAll(".operators");
 
 const html = document.querySelector("html");
 
-let position = localStorage.getItem("prefers-color-scheme") || 1;
+let position = 1;
 
 Switch.addEventListener("click", function () {
   switch (position) {
@@ -38,9 +38,4 @@ Switch.addEventListener("click", function () {
       break;
     }
   }
-  prefers_color_scheme();
 });
-
-function prefers_color_scheme() {
-  localStorage.setItem("prefers-color-scheme", position);
-}
